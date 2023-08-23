@@ -1,0 +1,21 @@
+Case Study
+
+1. Cloning the git repository
+2. Reading the files in the repository
+3. Go through the case study pdf
+4. Create a common repository for all of us
+5. Check if the existing project is running on localhost
+6. Modify by fulfilling the user stories as follows:
+(backend is of higher priority, followed by frontend)
+
+   User Stories:
+1. The application should allow us to add dependencies
+2. The application should allow to choose options between war and jar
+3. The application should allow us to choose the appropriate jdk version
+4. The application us to mention the domain, artifact, name of project and the description 
+of a project
+5. The application should allow us to choose maven or Gradle
+6. Rest response should be successful to get the accurate dependencies from Maven or 
+Gradle
+7. zip file should be created properly and saved on system
+8. Lastly, we should be able to load the project in Intellij or Eclipse or any IDE
