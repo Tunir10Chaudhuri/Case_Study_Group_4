@@ -1,0 +1,16 @@
+Additional steps to proceed (after following this --> https://alexpask.com/custom-spring-boot-initializr/):
+
+1. After you add the dependencies, as mentioned in the link, you have to download start-client-0.0.1-SNAPSHOT from our GitHub link and paste it in C:\Users\{your username}\.m2\repository\io\spring\start\start-client\0.0.1-SNAPSHOT
+
+just replace {your username} with your username.
+
+2. Open the folder where you cloned start.spring.io from GitHub. Then open command prompt on that location. Execute the following command:
+
+.\mvnw clean spring-boot:run -pl start-site
+
+If there is any problem in this command, you can try this alternate command:
+
+mvn clean spring-boot:run -pl start-site
+
+
+
