@@ -1,0 +1,159 @@
+Developer Tools:
+1. GraalVM Native Support
+2. Spring Boot DevTools
+3. Lombok
+4. Spring Configuration Processor
+5. Docker Compose Support
+6. Spring Modulith
+
+Web:
+1. Spring Web
+2. Spring Reactive Web
+3. Spring for GraphQL
+4. Rest Repositories
+5. Spring Session
+6. Rest Repositories HAL Explorer
+7. Spring HATEOAS
+8. Spring Web Services
+9. Jersey
+10. Vaadin
+11. Hilla
+
+Template Engines:
+1. Thymeleaf
+2. Apache Freemarker
+3. Mustache
+4. Groovy Templates
+
+Security:
+1. Spring Security
+2. OAuth2 Client
+3. OAuth2 Authorization Server
+4. OAuth2 Resource Server
+5. Spring LDAP
+6. Okta
+
+SQL:
+1. JDBC API
+2. Spring Data JPA
+3. Spring Data JDBC
+4. Spring Data R2DBC
+5. MyBatis Framework
+6. Liquibase Migration
+7. Flyway Migration
+8. JOOQ Access Layer
+9. IBM DB2 Driver
+10. Apache Derby Database
+11. H2 Database
+12. HyperSQL Database
+13. MariaDB Driver
+14. MS SQL Server Driver
+15. MySQL Driver
+16. Oracle Driver
+17. PostgreSQL Driver
+
+NoSQL:
+1. Spring Data Redis (Access+Driver)
+2. Spring Data Reactive Redis
+3. Spring Data MongoDB
+4. Spring Data Reactive MongoDB
+5. Spring Data Elasticsearch (Access+Driver)
+6. Spring Data for Apache Cassandra
+7. Spring Data Reactive for Apache Cassandra
+8. Spring Data Couchbase
+9. Spring Data Reactive Couchbase
+10. Spring Data Neo4j
+
+Messaging:
+1. Spring Integration
+2. Spring for RabbitMQ
+3. Spring for Apache Kafka
+4. Spring for Apache Kafka Streams
+5. Spring for Apache ActiveMQ 5
+6. Spring for Apache ActiveMQ Artemis
+7. Spring for Apache Pulsar
+8. Spring for Apache Pulsar (Reactive)
+9. WebSocket
+10. RSocket
+11. Apache Camel
+12. Solace PubSub+
+
+I/O:
+1. Spring Batch
+2. Validation
+3. Java Mail Sender
+4. Quartz Scheduler
+5. Spring cache abstraction
+6. Picocli
+7. Spring Shell
+
+OPS:
+1. Spring Boot Actuator
+2. codecentric's Spring Boot Admin (Client)
+3. codecentric's Spring Boot Admin (Server)
+4. Sentry
+
+Observability:
+1. Datadog
+2. Dynatrace
+3. Influx
+4. Graphite
+5. New Relic
+6. Prometheus
+7. Distributed Tracing
+8. Wavefront
+9. Zipkin
+
+Testing:
+1. Spring REST Docs
+2. Testcontainers
+3. Contract Verifier
+4. Contract Stub Runner
+5. Embedded LDAP Server
+6. Embedded MOngoDB Database
+
+Spring Cloud:
+1. Cloud Bootstrap
+2. Function
+3. Task
+
+Spring Cloud Config:
+1. Config Client
+2. Config Server
+3. Vault Configuration
+4. Apache Zookeeper Configuration
+5. Consul Configuration
+
+Spring Cloud Discovery:
+1. Eureka Discovery Client
+2. Eureka Server
+3. Apache Zookeeper Discovery
+4. Cloud Foundry Discovery
+
+Spring Cloud Routing:
+1. Gateway
+2. OpenFeign
+3. Cloud LoadBalancer
+
+Spring Cloud Circuit Breaker:
+1. Resilience4J
+
+Spring Cloud Messaging:
+1. Cloud Bus
+2. Cloud Stream
+
+VMWare Tanzu Application Service:
+1. Config Client (TAS)
+2. Service Registry (TAS)
+
+Microsoft Azure:
+1. Azure Support
+2. Azure Active Directory
+3. Azure Cosmos DB
+4. Azure Key Vault
+5. Azure Storage
+
+Google Cloud Platform:
+1. GCP Support
+2. GCP Messaging
+3. GCP Storage
