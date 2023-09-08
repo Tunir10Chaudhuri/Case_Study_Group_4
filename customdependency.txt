@@ -1,0 +1,31 @@
+Custom dependency
+
+initializr:
+    env:
+      customrepository:
+        name: customrepository
+        url: githuburl
+        snapshotsEnabled: false
+
+initializr:
+  env:
+    boms:
+      custombom:
+        groupId: io.customdependency
+        artifactId: customdependency-bom
+        version: 1.0
+        repository: customrepository
+
+
+initializr:
+    dependencies:
+        - name: CustomDependency
+        content:
+            - name: Spring Boot CustomDependency
+            id: crnk-spring-boot-custom-dependency
+            description: description
+            groupId: io.customdependency
+            artifactId: custom-dependency-spring-boot
+            starter: false
+            bom: custombom
+            repository: customrepository
