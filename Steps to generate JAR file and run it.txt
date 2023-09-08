@@ -1,0 +1,44 @@
+Steps for generating JAR file
+
+1. Create a maven project (I have used SpringTools, you can use Eclipse as well).
+2. Write the main class (I have just used the default App class)
+3. Open POM.XML and paste this (replace existing properties with this one)
+
+<properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <start-class>demogroup.SimpleJavaApp.App</start-class>
+  </properties>
+
+  <build>
+	  <plugins>
+    <plugin>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-maven-plugin</artifactId>
+        <configuration>
+            <mainClass>demogroup.SimpleJavaApp.App</mainClass>
+            <layout>JAR</layout>
+        </configuration>
+        <executions>
+    <execution>
+        <goals>
+            <goal>repackage</goal>
+        </goals>
+    </execution>
+</executions>
+    </plugin>
+  </plugins>
+  </build>
+
+4. Open command prompt and go to the workspace you are using right now. Type the following:
+
+mvn clean package
+
+5. JAR file will get generated in Target folder. You can check it. If it does not get generated, just refresh your project.
+
+6. Open command prompt and go to the Target folder (You can use previous command prompt as well). Type this:
+
+java -jar <jar name>.jar
+
+Just replace <jar name> with the name of your JAR file.
+
+7. Check the ouput, it should be working fine.
