@@ -29,6 +29,8 @@ Steps for generating JAR file
   </plugins>
   </build>
 
+You can replace class name and package name with your class name and package name.
+
 4. Open command prompt and go to the workspace you are using right now. Type the following:
 
 mvn clean package
