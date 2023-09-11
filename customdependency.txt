@@ -4,7 +4,7 @@ initializr:
     env:
       customrepository:
         name: customrepository
-        url: githuburl
+        url: https://github.com/Tunir10Chaudhuri/Case_Study_Group_4/blob/main/CustomDependency.jar
         snapshotsEnabled: false
 
 initializr:
@@ -14,7 +14,7 @@ initializr:
         groupId: io.customdependency
         artifactId: customdependency-bom
         version: 1.0
-        repository: customrepository
+        repositories: customrepository
 
 
 initializr:
@@ -22,7 +22,7 @@ initializr:
         - name: CustomDependency
         content:
             - name: Spring Boot CustomDependency
-            id: crnk-spring-boot-custom-dependency
+            id: spring-boot-custom-dependency
             description: description
             groupId: io.customdependency
             artifactId: custom-dependency-spring-boot
