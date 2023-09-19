@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <psf version="2.0">
 <provider id="org.eclipse.egit.core.GitProvider">
-<project reference="1.0,https://github.com/spring-io/initializr.git,main,."/>
-<project reference="1.0,https://github.com/spring-io/initializr.git,main,initializr-actuator"/>
-<project reference="1.0,https://github.com/spring-io/initializr.git,main,initializr-bom"/>
-<project reference="1.0,https://github.com/spring-io/initializr.git,main,initializr-docs"/>
-<project reference="1.0,https://github.com/spring-io/initializr.git,main,initializr-generator"/>
-<project reference="1.0,https://github.com/spring-io/initializr.git,main,initializr-generator-spring"/>
-<project reference="1.0,https://github.com/spring-io/initializr.git,main,initializr-generator-test"/>
-<project reference="1.0,https://github.com/spring-io/initializr.git,main,initializr-metadata"/>
-<project reference="1.0,https://github.com/spring-io/initializr.git,main,initializr-parent"/>
-<project reference="1.0,https://github.com/spring-io/initializr.git,main,initializr-service-sample"/>
-<project reference="1.0,https://github.com/spring-io/initializr.git,main,initializr-version-resolver"/>
-<project reference="1.0,https://github.com/spring-io/initializr.git,main,initializr-web"/>
 <project reference="1.0,https://github.com/spring-io/start.spring.io.git,main,start-client"/>
-<project reference="1.0,https://github.com/spring-io/start.spring.io.git,main,start-site"/>
-<project reference="1.0,https://github.com/spring-io/start.spring.io.git,main,start-site-verification"/>
-<project reference="1.0,https://github.com/spring-io/start.spring.io.git,main,."/>
 </provider>
 </psf>
