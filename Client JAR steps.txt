@@ -1,0 +1,21 @@
+Steps to use JAR file start-client-0.0.1-SNAPSHOT:
+
+1. Download JAR file from GitHub.
+
+2. Paste it in this location:
+C:\Users\{your username}\.m2\repository\io\spring\start\start-client\0.0.1-SNAPSHOT
+
+3. Open the folder where start spring io is present and visit Target folder of Start Client, paste it there as well.
+
+4. Open Spring Tools and visit current workspace, paste it again in Target of Start Client.
+
+5. Update Maven project of only Start Client.
+
+6. Open the folder where you cloned start.spring.io from GitHub. Then open command prompt on that location. Execute the following command:
+
+.\mvnw clean spring-boot:run -pl start-site
+
+If there is any problem in this command, you can try this alternate command:
+
+mvn clean spring-boot:run -pl start-site
+
