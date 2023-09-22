@@ -1,6 +1,6 @@
 Steps to use JAR file start-client-0.0.1-SNAPSHOT:
 
-1. Download JAR file from GitHub.
+1. Download JAR file start-client-0.0.2-SNAPSHOT from GitHub and rename it to start-client-0.0.1-SNAPSHOT
 
 2. Paste it in this location:
 C:\Users\{your username}\.m2\repository\io\spring\start\start-client\0.0.1-SNAPSHOT
